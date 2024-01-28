@@ -28,6 +28,3 @@
 \contentsline {subsection}{\numberline {5.3}Security Requirements}{6}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Software Quality Attributes}{6}{subsection.5.4}%
 \contentsline {section}{\numberline {6}Updation}{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Software Update Requirements}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Data Migration and Updates}{8}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Document Update Process}{8}{subsection.6.3}%

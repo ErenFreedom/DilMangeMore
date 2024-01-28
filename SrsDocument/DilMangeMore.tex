@@ -44,7 +44,17 @@
     \includegraphics[width=0.5\textwidth]{Logo.png} % Replace with the actual filename of your logo
     \vspace{1cm}
     
-    {\Large\bfseries \today\\}
+    {\Large\bfseries \today\\[2cm]}
+     % Names in the bottom right corner
+     \hspace*{\fill}
+     \begin{minipage}{0.4\textwidth}
+         \begin{flushright}
+             \textbf{Names:}\\
+             Aditya Singh 2101020\\
+             Jashanpreet 2101090\\
+             Kartik Kumar 2101096
+         \end{flushright}
+     \end{minipage}
 \end{titlepage}
 
 % Start a new page for the Table of Contents
@@ -102,7 +112,7 @@
 % Introduction section
 \section{Introduction}
 \subsection{Purpose}
-The purpose of this Software Requirements Specification (SRS) is to serve as a detailed roadmap for the development of the 'Dil Mange More' food delivery web application, leveraging the power of the MERN stack. Beyond a mere listing of requirements, it comprehensively outlines both functional and non-functional aspects, design constraints, and other vital considerations, ensuring a methodical and triumphant development journey. This application aims to empower users with the convenience of ordering food online, offering choices like home delivery, pickups, and seamless exploration of nearby restaurants. 'Dil Mange More' brings the entire culinary experience to the user's doorstep, promising a delightful and stress-free way to savor favorite meals from the comfort of home.
+The purpose of this Software Requirements Specification (SRS) is to serve as a detailed roadmap for the development of the 'Dil Mange More' food delivery web application, leveraging the power of the MERN stack.We will use Prototype model. Beyond a mere listing of requirements, it comprehensively outlines both functional and non-functional aspects, design constraints, and other vital considerations, ensuring a methodical and triumphant development journey. This application aims to empower users with the convenience of ordering food online, offering choices like home delivery, pickups, and seamless exploration of nearby restaurants. 'Dil Mange More' brings the entire culinary experience to the user's doorstep, promising a delightful and stress-free way to savor favorite meals from the comfort of home.
 
 \subsection{Document Conventions}
 In maintaining top-notch coding standards, we adhere to industry best practices, embracing the Airbnb JavaScript Style Guide for React.js components, adopting ES6 syntax, and enforcing consistent naming conventions. To further enhance code clarity and maintainability, in-code documentation leverages JSDoc. Additionally, the ER diagram is employed to illuminate the database structure, providing a clear visual representation that aids developers in comprehending the intricacies of data storage and retrieval.
@@ -114,8 +124,7 @@ Designed for a diverse audience, this document caters to developers, testers, pr
 The 'Dil Mange More' project ambitiously encompasses the development of a user-centric food delivery web application, employing the MERN stack for optimal performance. Within this scope, key components include a responsive React.js frontend, a scalable Node.js and Express.js backend, and MongoDB for robust data storage. Embracing a holistic approach, the project entails not only secure user authentication and real-time order processing but also seamless integration with external payment gateways. The envisioned scope promises a feature-rich and user-friendly platform that redefines the online food ordering experience.
 
 \subsection{References}
-For guidance and best practices, refer to MongoDB Documentation \cite{mongodb-doc}, Express.js Documentation \cite{express-doc}, React.js Documentation \cite{react-doc}, and Node.js Documentation \cite{node-doc}. These resources provide invaluable support in harnessing the capabilities of the MERN stack and ensuring the successful implementation of the 'Dil Mange More' web application.
-
+For guidance and best practices, refer to [MongoDB Documentation](https://docs.mongodb.com/), [Express.js Documentation](https://expressjs.com/), [React.js Documentation](https://reactjs.org/docs/getting-started.html), and [Node.js Documentation](https://nodejs.org/en/docs/). These resources provide invaluable support in harnessing the capabilities of the MERN stack and ensuring the successful implementation of the 'Dil Mange More' web application.
 
 % 2 Overall Description section
 \newpage
@@ -274,13 +283,7 @@ Software quality attributes define the characteristics of the system that contri
 % Updation section
 \newpage
 \section{Updation}
-\subsection{Software Update Requirements}
-% The requirements for software updates, including procedures and frequency.
-
-\subsection{Data Migration and Updates}
-% The requirements for data migration, including strategies and timing.
-
-\subsection{Document Update Process}
-% The process for updating this SRS document, including version control and update frequency.
-
+\begin{itemize}
+   \item \textbf{Introduction:} Updated the SDLC model in the Introduction 1.1
+\end{itemize}
 \end{document}
