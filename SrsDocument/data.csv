@@ -1,0 +1,14 @@
+Condition,Order Placed,Payment Type,Payment Confirmed,Delivery Zone,Customization,Delivery Time Slot,Order Prepared,Driver Assigned,Action
+C1: During operational hours,Yes,Online,Yes,In Zone,Yes,Immediate,Yes,Yes,Confirm order, proceed to delivery
+C2: During operational hours,Yes,Online,No,In Zone,Yes,Immediate,Yes,Yes,Request payment confirmation
+C3: During operational hours,Yes,Cash,N/A,In Zone,No,Scheduled,Yes,No,Assign driver, update customer
+C4: During operational hours,Yes,Cash,N/A,Out of Zone,Yes/No,Any,Yes/No,Yes/No,Notify customer, cancel order
+C5: Outside operational hours,Yes,Online/Cash,Yes/No/N/A,In Zone,Yes/No,Any,Yes/No,Yes/No,Display restaurant closed message
+C6: During operational hours,No,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No action needed (no order placed)
+C7: During operational hours,Yes,Online,Yes,In Zone,Yes,Immediate,No,Yes,Notify delay in preparation, adjust ETA
+C8: During operational hours,Yes,Online,Yes,In Zone,Yes,Scheduled,Yes,Yes,Confirm schedule, prepare for delivery
+C9: During operational hours,Yes,Online,Yes,In Zone,No,Immediate,Yes,Yes,Proceed without customization
+C10: During operational hours,Yes,Online,Yes,In Zone,Yes/No,Immediate/Scheduled,Yes,No,Notify customer of driver unavailability
+C11: During operational hours,Yes,Online,Yes,In/Out Zone,Yes/No,Over max wait time,Yes/No,Yes/No,Offer discount or cancel due to wait time/Refund
+C12: During operational hours,Yes,Online,Yes,In Zone,Yes,Immediate,Yes,Yes,Implement loyalty points or discounts
+C13: During operational hours, Yes, Online/Cash, Yes, In Zone, NA, Delayed, Yes, Yes, Issue voucher and deliver order
